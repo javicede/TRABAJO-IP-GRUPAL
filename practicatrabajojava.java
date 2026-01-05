@@ -1,15 +1,17 @@
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
-public class practicatrabajojava {
-    public static void main(String[] args) {
-        String frase=JOptionPane.showInputDialog("Número a alcanzar: ");
+public static pedirNum(){
+	String frase=JOptionPane.showInputDialog("Número a alcanzar: ");
         int num=Integer.parseInt(frase);
         // Comprobación para saber si el num a alcanzar es potencia de 2 o potencia en miles
         while (num%2!=0){
             frase=JOptionPane.showInputDialog("Vuelva a introducir el número a alcanzar: ");
             num=Integer.parseInt(frase);
         }
-        // El bucle funciona perfectamente
+}
+public class practicatrabajojava {
+    public static void main(String[] args) {
+		int num=pedirNum();
         Tablero mi_tablero=new Tablero();
         // Código del archivo adjutando
         JFrame app = new JFrame("Tablero");
@@ -26,4 +28,5 @@ public class practicatrabajojava {
 		app.setVisible(true);
     }
 }
+
 
