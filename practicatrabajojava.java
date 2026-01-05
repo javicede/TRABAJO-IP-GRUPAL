@@ -9,7 +9,7 @@ public class practicatrabajojava {
             frase=JOptionPane.showInputDialog("Vuelva a introducir el número a alcanzar: ");
             num=Integer.parseInt(frase);
         }
-        // El bucle funciona perfectamente, el número será num2
+        // El bucle funciona perfectamente
         Tablero mi_tablero=new Tablero();
         // Código del archivo adjutando
         JFrame app = new JFrame("Tablero");
@@ -26,3 +26,4 @@ public class practicatrabajojava {
 		app.setVisible(true);
     }
 }
+
