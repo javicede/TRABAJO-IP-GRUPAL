@@ -44,6 +44,8 @@ public class practicaTablero {
         imprimirTableroConsola();
     }
     public void paintComponent(Graphics g){
-
+    // Falta graficar la tabla y más código
+    // Este código fue gracias a Gemini y al trabajo interminable del Sr.Javier JSSAJJDA broma
     }
 }
+
